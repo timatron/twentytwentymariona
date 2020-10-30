@@ -6464,11 +6464,10 @@ a.to-the-top > * {
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400&display=swap');
 
 body, .entry-content {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Karla', sans-serif;
 }
 
 .entry-title { 
@@ -6503,11 +6502,11 @@ body, .entry-content {
   }
 
   .wp-block-image {
-  	padding: 23%;
+  	padding: 24%;
   }
 
   body.template-full-width .entry-content {
-  	max-width: 160rem;
+  	max-width: 166rem;
   	margin: 0 auto;
   }
 
@@ -6530,7 +6529,7 @@ body, .entry-content {
 }
 
 .site-title {
- font-family: 'Raleway', sans-serif;
+ font-family: 'Karla', sans-serif;
  font-weight: 400;
  font-style: normal;
  letter-spacing: 0.1em;
@@ -6551,7 +6550,7 @@ body, .entry-content {
 
 @media screen and (max-width: 575px) {
   [data-mobile-header-font-tweaks="true"] .site-title {
-    font-family: 'Raleway', sans-serif;
+    font-family: 'Karla', sans-serif;
     font-weight: 400;
     font-style: normal;
     letter-spacing: 0.1em;
