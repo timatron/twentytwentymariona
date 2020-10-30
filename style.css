@@ -6503,11 +6503,11 @@ body, .entry-content {
   }
 
   .wp-block-image {
-  	padding: 24%;
+  	padding: 23%;
   }
 
   body.template-full-width .entry-content {
-  	max-width: 166rem;
+  	max-width: 160rem;
   	margin: 0 auto;
   }
 
