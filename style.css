@@ -6501,6 +6501,10 @@ body, .entry-content {
   .header-inner {
     padding: 7rem 4rem;
   }
+
+  .wp-block-image {
+  	padding: 26%;
+  }
 }
 
 #site-header {
