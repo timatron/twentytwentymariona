@@ -6493,7 +6493,7 @@ body, .entry-content {
   padding: 5%;
 }
 
-@media (min-width: 800px) {
+@media (min-width: 700px) {
   .pgcsimplygalleryblock-masonry-item {
     padding: 26%;
   }
@@ -6504,6 +6504,10 @@ body, .entry-content {
 
   .wp-block-image {
   	padding: 26%;
+  }
+
+  body.template-full-width .entry-content {
+  	width: 160rem;
   }
 }
 
