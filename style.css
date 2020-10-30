@@ -1,0 +1,190 @@
+/*
+Theme Name: Twenty Twenty Mariona
+Theme URL: http://marionavilaros.com
+Description: Twenty Twenty Mariona Child Theme
+Author: timatron
+Author URL: http://github.com/timatron
+Template: twentytwenty
+Version: 1.0.0
+Text Domain: twentytwenty-child
+*/ 
+/* Custom CSS goes after this line */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body, .entry-content {
+  font-family: 'Raleway', sans-serif;
+}
+
+.entry-title { 
+  display: none; 
+}
+
+.section-inner, .wp-block-pgcsimplygalleryblock-masonry {
+  max-width: 200rem !important;
+}
+
+@media (min-width: 700px) {
+  .wp-block-pgcsimplygalleryblock-masonry {
+    width: calc(100% - 16rem);
+  }
+}
+
+.pgcsimplygalleryblock-masonry-content {
+  padding: 0 !important;
+}
+
+.pgcsimplygalleryblock-masonry-item {
+  padding: 5%;
+}
+
+@media (min-width: 800px) {
+  .pgcsimplygalleryblock-masonry-item {
+    padding: 26%;
+  }
+  
+  .header-inner {
+    padding: 7rem 4rem;
+  }
+}
+
+#site-header {
+  position: fixed;
+  width: 100%;
+  background-color: transparent;
+  z-index: 999;
+}
+
+.header-nav-list {
+  font-size: 1rem;
+}
+
+.site-title {
+ font-family: 'Raleway', sans-serif;
+ font-weight: 400;
+ font-style: normal;
+ letter-spacing: 0.1em;
+ text-transform: none;
+ line-height: 3.9em;
+ font-size: 1.3rem;
+ border-bottom: 0;
+ line-height: 1.5;
+}
+
+.site-title a {
+  text-decoration: none;
+}
+
+.site-title a:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 575px) {
+  [data-mobile-header-font-tweaks="true"] .site-title {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 0.1em;
+    text-transform: none;
+    line-height: 3.9em;
+    font-size: 1.3rem;
+   }
+}
+
+.primary-menu a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  font-style: normal;
+  letter-spacing: 0em;
+  text-transform: none;
+  line-height: 1.8em;
+  color: #000000 !important;
+}
+
+.color-accent, .color-accent-hover:hover, .color-accent-hover:focus, :root .has-accent-color, .has-drop-cap:not(:focus):first-letter, .wp-block-button.is-style-outline, a {
+  color: #000000;
+}
+
+.powered-by-wordpress, .to-the-top {
+  display: none;
+}
+
+#site-footer {
+  border-top-width: 0 !important;
+  bottom: 0 !important;
+  position: fixed !important;
+  width: 100% !important;
+  background: transparent !important;
+}
+
+.footer-copyright {
+  display: none;
+}
+
+.page-id-126 .footer-copyright {
+  display: block !important;
+  font-weight: 300;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  font-size: 1.5rem;
+}
+
+
+
+@media screen and (max-width: 575px) {
+  .footer-copyright {
+    margin-left: 0px;
+  }
+}
+
+.toggle-text, .header-toggles {
+  display: none;
+}
+
+.primary-menu .menu-item-146 {
+  margin-top: 1.3rem !important;
+  margin-left: 6rem !important;
+}
+
+.nav-toggle svg {
+  width: 1.5rem;
+}
+
+.header-inner .toggle {
+  padding: 0 3rem;
+}
+
+.menu-modal {
+  z-index: 1000;
+}
+
+.menu-modal nav * {
+    border: 0 !important;
+}
+
+.footer-credits {
+  display: block;
+  width: 100%;
+}
+
+.footer-copyright {
+  float: right;
+  margin-right: 40px;
+  font-size: 1.2rem;
+}
+
+.modal-menu {
+  margin-top: 80px;
+}
+
+.modal-menu .ancestor-wrapper {
+  justify-content: center;
+}
+
+.modal-menu a {
+  width: auto !important;
+  color: #000000;
+  margin-top: 20px;
+}
