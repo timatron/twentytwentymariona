@@ -6507,7 +6507,7 @@ body, .entry-content {
   }
 
   body.template-full-width .entry-content {
-  	width: 160rem;
+  	max-width: 160rem;
   }
 }
 
