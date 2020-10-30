@@ -57,23 +57,5 @@
 
 		<?php wp_footer(); ?>
 
-		<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
-		<script>
-			(function() {
-				// init with element
-				var grid = document.querySelector('.wp-block-gallery');
-				var msnry = new Masonry( grid, {
-				  // options...
-				  itemSelector: '.blocks-gallery-item',
-				  columnWidth: 200
-				});
-
-				// init with selector
-				var msnry = new Masonry( '.grid', {
-				  // options...
-				});
-			}());
-		</script>
-
 	</body>
 </html>
