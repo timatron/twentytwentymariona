@@ -63,6 +63,10 @@
 							twentytwenty_site_logo();
 						?>
 
+						<div class="header-dash">
+							—
+						</div>
+
 						<nav class="primary-menu-wrapper" aria-label="<?php echo esc_attr_x( 'Horizontal', 'menu', 'twentytwenty' ); ?>" role="navigation">
 
 								<ul class="primary-menu reset-list-style">
