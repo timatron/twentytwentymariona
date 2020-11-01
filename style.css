@@ -6607,7 +6607,11 @@ body, .entry-content {
   display: none;
 }
 
-.insta-wrapper .menu-item-146 {
+.insta-wrapper {
+	list-style: none;
+}
+
+.insta-wrapper .menu-item-insta {
   margin-top: 1.3rem !important;
   margin-left: 6rem !important;
 }
