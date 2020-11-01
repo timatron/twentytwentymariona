@@ -6558,7 +6558,7 @@ body, .entry-content {
    }
 }*/
 
-.primary-menu .ul {
+.primary-menu {
 	display: block;
 }
 
