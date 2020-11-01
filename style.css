@@ -6516,6 +6516,7 @@ body.template-full-width .entry-content {
   border-bottom: 0;
   line-height: 1.5;
   display: inline-block;
+  margin: 0;
 }
 
 .site-title a {
