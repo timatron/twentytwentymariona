@@ -6464,10 +6464,10 @@ a.to-the-top > * {
 
 
 
-@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
 
 body, .entry-content {
-  font-family: 'Karla', sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .entry-title { 
@@ -6529,12 +6529,10 @@ body, .entry-content {
 }
 
 .site-title {
- font-family: 'Karla', sans-serif;
- font-weight: 700;
- font-style: bold;
+ font-family: 'Montserrat', sans-serif;
+ font-weight: 600;
  letter-spacing: 0em;
  text-transform: none;
- line-height: 3.9em;
  font-size: 2.2rem;
  border-bottom: 0;
  line-height: 1.5;
@@ -6548,9 +6546,9 @@ body, .entry-content {
   text-decoration: none;
 }
 
-@media screen and (max-width: 575px) {
+/*@media screen and (max-width: 575px) {
   [data-mobile-header-font-tweaks="true"] .site-title {
-    font-family: 'Karla', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     font-style: normal;
     letter-spacing: 0.1em;
@@ -6558,11 +6556,11 @@ body, .entry-content {
     line-height: 3.9em;
     font-size: 1.3rem;
    }
-}
+}*/
 
 .primary-menu a {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
   font-size: 1.6rem;
   font-style: normal;
   letter-spacing: 0em;
