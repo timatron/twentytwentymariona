@@ -6498,6 +6498,9 @@ body.template-full-width .entry-content {
 
 .header-inner {
   align-items: start;
+  display: flex;
+  justify-content: space-between;
+  padding: 2.8rem 0;
 }
 
 .header-titles {
