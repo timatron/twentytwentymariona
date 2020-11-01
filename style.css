@@ -6558,6 +6558,10 @@ body, .entry-content {
    }
 }*/
 
+.primary-menu .ul {
+	display: block;
+}
+
 .primary-menu a {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
