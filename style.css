@@ -6519,6 +6519,11 @@ body.template-full-width .entry-content {
   text-decoration: none;
 }
 
+.header-dash {
+  display: inline-block;
+  margin: 0 1em;
+}
+
 .primary-menu-wrapper {
   display: inline-block;
   width: inherit;
