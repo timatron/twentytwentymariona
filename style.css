@@ -6597,8 +6597,6 @@ body, .entry-content {
   font-size: 1.5rem;
 }
 
-
-
 @media screen and (max-width: 575px) {
   .footer-copyright {
     margin-left: 0px;
@@ -6609,7 +6607,7 @@ body, .entry-content {
   display: none;
 }
 
-.primary-menu .menu-item-146 {
+.insta-wrapper .menu-item-146 {
   margin-top: 1.3rem !important;
   margin-left: 6rem !important;
 }
