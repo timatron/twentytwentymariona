@@ -6521,6 +6521,7 @@ body.template-full-width .entry-content {
 
 .primary-menu-wrapper {
   display: inline-block;
+  width: none;
 }
 
 ul.primary-menu {
