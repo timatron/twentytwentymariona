@@ -6500,12 +6500,17 @@ body.template-full-width .entry-content {
   align-items: start;
   display: flex;
   justify-content: space-between;
-  padding: 2.8rem 0;
+  padding: 0;
 }
 
 .header-titles {
   margin: 0;
+  align-items: baseline;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
+
 .header-nav-list {
   font-size: 1rem;
 }
