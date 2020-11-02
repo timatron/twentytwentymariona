@@ -6503,6 +6503,10 @@ body.template-full-width .entry-content {
   padding: 0;
 }
 
+.header-titles-wrapper {
+  padding: 0;
+}
+
 .header-titles {
   margin: 0;
   align-items: baseline;
