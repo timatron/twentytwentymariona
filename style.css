@@ -6566,7 +6566,7 @@ ul.primary-menu {
 
 .insta-wrapper {
   list-style: none;
-  margin: 0;
+  margin: 0.25em 0 0 0;
   display: inline-block;
 }
 
