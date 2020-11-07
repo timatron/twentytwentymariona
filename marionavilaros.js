@@ -25,10 +25,6 @@ addStyle(`
     overflow: hidden;
   }
 
-  #site-header {
-    display: none;
-  }
-
   .cover-header {
     display: none;
   }
