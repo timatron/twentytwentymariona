@@ -12,9 +12,20 @@ addStyle(`
   #post-inner {
     position: absolute;
     top: 0;
+    z-index: -1;
+  }
+
+  .to-the-content-wrapper {
+    display: none;
+  }
+
+  .stop-scrolling {
+    height: 100%;
+    overflow: hidden;
   }
 `);
 
+document.body.classList.add('stop-scrolling');
 
 window.addEventListener('load', () => {
   const postInner = document.getElementById('post-inner');
