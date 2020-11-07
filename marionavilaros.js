@@ -35,11 +35,14 @@ window.scrollTo(0,0);
 document.body.classList.add('stop-scrolling');
 
 jQuery(document).ready(function( $ ) {
-  console.log('yo')
-  $('.cover-header').fadeIn(3000);
-  $('#site-header').fadeIn(3000);
-  $('#post-inner').css('z-index', '0');
-
-  // allow scrolling again
-  $('body').removeClass('stop-scrolling');
+  $('#site-header').css('display', 'none');
+  $('.cover-header').fadeIn(3000, function () {
+    $('#post-inner').css('z-index', '0');
+    $('#post-inner').css('display', 'block');
+    $('#site-header').fadeIn(3000, function () {
+        $('.cover-header').fadeOut(3000, function () {
+        $('body').removeClass('stop-scrolling');
+      });
+    });
+  });
 });
