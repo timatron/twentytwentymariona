@@ -6623,6 +6623,6 @@ ul.primary-menu {
   font-size: 1.2rem;
 }
 
-.cover-header .entry-header {
+.cover-header .entry-header * {
 	color: #fffff !important;
 }
