@@ -68,5 +68,25 @@ if ( document.body.classList.contains('template-cover') ) {
         });
       });
     });
+  } else {
+    addStyle(`
+      #post-inner {
+        position: absolute;
+        top: 0;
+        z-index: 0;
+      }
+
+      .to-the-content-wrapper {
+        display: none;
+      }
+
+      .cover-header {
+        display: none;
+      }
+
+      #site-header {
+        display: block;
+      }
+    `);
   }
 }
