@@ -6626,6 +6626,7 @@ ul.primary-menu {
 .template-cover {
 
 	.cover-header {
+		display: none;
 		-webkit-animation: fadein 0s; /* Safari, Chrome and Opera > 12.1 */
 	       -moz-animation: fadein 0s; /* Firefox < 16 */
 	        -ms-animation: fadein 0s; /* Internet Explorer */
@@ -6638,6 +6639,7 @@ ul.primary-menu {
 	}
 
 	#site-header {
+		display: block;
 		-webkit-animation: fadein 0s; /* Safari, Chrome and Opera > 12.1 */
 	       -moz-animation: fadein 0s; /* Firefox < 16 */
 	        -ms-animation: fadein 0s; /* Internet Explorer */
