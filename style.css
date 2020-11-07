@@ -6627,11 +6627,6 @@ ul.primary-menu {
 
 	.cover-header {
 		display: none;
-		-webkit-animation: fadein 0s; /* Safari, Chrome and Opera > 12.1 */
-	       -moz-animation: fadein 0s; /* Firefox < 16 */
-	        -ms-animation: fadein 0s; /* Internet Explorer */
-	         -o-animation: fadein 0s; /* Opera < 12.1 */
-	            animation: fadein 0s;
 	}
 
 	.cover-header .entry-header * {
