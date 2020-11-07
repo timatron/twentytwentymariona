@@ -24,6 +24,14 @@ addStyle(`
     height: 100%;
     overflow: hidden;
   }
+
+  .site-header {
+    opacity: 0;
+  }
+
+  .cover-header {
+    opacity: 0;
+  }
 `);
 
 window.scrollTo(0,0);
