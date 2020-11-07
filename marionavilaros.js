@@ -38,13 +38,12 @@ addStyle(`
 window.scrollTo(0,0);
 document.body.classList.add('stop-scrolling');
 
-
 jQuery(document).ready(function( $ ) {
   console.log('yo')
   $('.cover-header').fadeIn(3000);
-});
+  $('#site-header').fadeIn(3000);
+  $('#post-inner').css('z-index', '0');
 
-window.addEventListener('load', () => {
-  const postInner = document.getElementById('post-inner');
-  // postInner.scrollIntoView();
+  // allow scrolling again
+  $('body').removeClass('stop-scrolling');
 });
