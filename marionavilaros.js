@@ -52,9 +52,12 @@ if ( document.body.classList.contains('template-cover') ) {
 
       $('#site-header').fadeIn(2000);
       $('.cover-header').fadeIn(2000, function () {
-        $('#post-inner').css('display', 'block');
-            $('.cover-header').fadeOut(1000, function () {
+        $('#site-header').fadeOut(1000);
+        $('.cover-header').fadeOut(1000, function () {
+          $('#site-header').fadeIn(1000);
+          $('#post-inner').fadeIn(1000, function () {
             $('body').removeClass('stop-scrolling');
+          });
         });
       });
     });
