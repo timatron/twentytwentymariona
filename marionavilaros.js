@@ -25,7 +25,7 @@ addStyle(`
     overflow: hidden;
   }
 
-  .site-header {
+  #site-header {
     opacity: 0;
   }
 
@@ -34,8 +34,14 @@ addStyle(`
   }
 `);
 
+// lock screen
 window.scrollTo(0,0);
 document.body.classList.add('stop-scrolling');
+
+
+jQuery(document).ready(function( $ ) {
+  $('.cover-header').fadeIn();
+});
 
 window.addEventListener('load', () => {
   const postInner = document.getElementById('post-inner');
