@@ -6622,3 +6622,7 @@ ul.primary-menu {
   margin-right: 40px;
   font-size: 1.2rem;
 }
+
+.cover-header .entry-header {
+	color: #fffff !important;
+}
