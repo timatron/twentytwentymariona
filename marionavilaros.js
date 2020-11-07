@@ -30,7 +30,7 @@ addStyle(`
   }
 
   .cover-header {
-    opacity: 0;
+    display: none;
   }
 `);
 
