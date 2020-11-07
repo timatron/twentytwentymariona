@@ -37,7 +37,6 @@ document.body.classList.add('stop-scrolling');
 jQuery(document).ready(function( $ ) {
   $('#site-header').css('display', 'none');
   $('.cover-header').fadeIn(3000, function () {
-    $('#post-inner').css('z-index', '0');
     $('#post-inner').css('display', 'block');
     $('#site-header').fadeIn(3000, function () {
         $('.cover-header').fadeOut(3000, function () {
