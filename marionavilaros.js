@@ -25,7 +25,8 @@ addStyle(`
   }
 `);
 
-// document.body.classList.add('stop-scrolling');
+window.scrollTo(0,0);
+document.body.classList.add('stop-scrolling');
 
 window.addEventListener('load', () => {
   const postInner = document.getElementById('post-inner');
