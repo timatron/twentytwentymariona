@@ -39,6 +39,7 @@ if ( document.body.classList.contains('template-cover') ) {
   jQuery(document).ready(function( $ ) {
     $('#site-header').css('display', 'none');
     $('.cover-header').css('display', 'none');
+    $('#post-inner').css('z-index', '0');
     
     $('.cover-header').css('-webkit-animation', 'none');
     $('.cover-header').css('-moz-animation', 'none');
@@ -54,8 +55,8 @@ if ( document.body.classList.contains('template-cover') ) {
       $('#site-header').css('-o-animation', 'none');
       $('#site-header').css('animation', 'none');
 
-      $('#post-inner').css('display', 'block');
       $('#site-header').fadeIn(2000, function () {
+          $('#post-inner').fadeIn(1000);
           $('.cover-header').fadeOut(1000, function () {
           $('body').removeClass('stop-scrolling');
         });
