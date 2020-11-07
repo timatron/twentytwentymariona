@@ -26,7 +26,7 @@ addStyle(`
   }
 
   #site-header {
-    opacity: 0;
+    display: none;
   }
 
   .cover-header {
@@ -41,7 +41,7 @@ document.body.classList.add('stop-scrolling');
 
 jQuery(document).ready(function( $ ) {
   console.log('yo')
-  $('.cover-header').fadeIn();
+  $('.cover-header').fadeIn(3000);
 });
 
 window.addEventListener('load', () => {
