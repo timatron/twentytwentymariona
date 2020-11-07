@@ -38,6 +38,14 @@ if ( document.body.classList.contains('template-cover') ) {
 
   jQuery(document).ready(function( $ ) {
     $('#site-header').css('display', 'none');
+    $('.cover-header').css('display', 'none');
+    
+    $('.cover-header').css('-webkit-animation', 'none');
+    $('.cover-header').css('-moz-animation', 'none');
+    $('.cover-header').css('-ms-animation', 'none');
+    $('.cover-header').css('-o-animation', 'none');
+    $('.cover-header').css('animation', 'none');
+
     $('.cover-header').fadeIn(3000, function () {
 
       $('#site-header').css('-webkit-animation', 'none');
