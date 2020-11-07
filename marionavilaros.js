@@ -40,6 +40,7 @@ document.body.classList.add('stop-scrolling');
 
 
 jQuery(document).ready(function( $ ) {
+  console.log('yo')
   $('.cover-header').fadeIn();
 });
 
