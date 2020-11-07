@@ -55,8 +55,8 @@ if ( document.body.classList.contains('template-cover') ) {
       $('#site-header').css('animation', 'none');
 
       $('#post-inner').css('display', 'block');
-      $('#site-header').fadeIn(3000, function () {
-          $('.cover-header').fadeOut(3000, function () {
+      $('#site-header').fadeIn(2000, function () {
+          $('.cover-header').fadeOut(1000, function () {
           $('body').removeClass('stop-scrolling');
         });
       });
