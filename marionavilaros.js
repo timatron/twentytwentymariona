@@ -44,20 +44,17 @@ if ( document.body.classList.contains('template-cover') ) {
 
     jQuery(document).ready(function( $ ) {
       $('#site-header').css('display', 'none');
-      
-      $('.cover-header').fadeIn(3000, function () {
+      $('#site-header').css('-webkit-animation', 'none');
+      $('#site-header').css('-moz-animation', 'none');
+      $('#site-header').css('-ms-animation', 'none');
+      $('#site-header').css('-o-animation', 'none');
+      $('#site-header').css('animation', 'none');
 
-        $('#site-header').css('-webkit-animation', 'none');
-        $('#site-header').css('-moz-animation', 'none');
-        $('#site-header').css('-ms-animation', 'none');
-        $('#site-header').css('-o-animation', 'none');
-        $('#site-header').css('animation', 'none');
-
+      $('#site-header').fadeIn(2000);
+      $('.cover-header').fadeIn(2000, function () {
         $('#post-inner').css('display', 'block');
-        $('#site-header').fadeIn(2000, function () {
             $('.cover-header').fadeOut(1000, function () {
             $('body').removeClass('stop-scrolling');
-          });
         });
       });
     });
