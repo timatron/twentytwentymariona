@@ -15,7 +15,6 @@ add_action( 'wp_enqueue_scripts','mariona_enqueue_assets' );
 
 function mariona_page_template( $template ) {
 	if ( is_page() && ! empty( $_COOKIE['visited'] ) ) {
-		echo "swapping to full width";
 		return get_stylesheet_directory() . '/templates/template-full-width.php';
 	}
 }
