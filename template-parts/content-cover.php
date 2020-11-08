@@ -23,6 +23,13 @@
 	if ( $image_url ) {
 		$cover_header_style   = ' style="background-image: url( ' . esc_url( $image_url ) . ' );"';
 		$cover_header_classes = ' bg-image';
+		?>
+		<script type="text/javascript">
+		    if(document.images)
+		        (new Image()).src="<?php echo esc_url( $image_url ); ?>";
+		</script>
+
+		<?php
 	}
 
 	// Get the color used for the color overlay.

@@ -6628,7 +6628,7 @@ ul.primary-menu {
 }
 
 .template-cover {
-
+/*
 	.cover-header {
 		opacity: 0;
 	}
@@ -6640,7 +6640,7 @@ ul.primary-menu {
 	#site-header {
 		opacity: 0;
 	}
-
+*/
 	#post-inner {
 		position: absolute;
 		top: 0;
