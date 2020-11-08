@@ -1,4 +1,4 @@
-document.querySelector('#coverall').addEventListener('load', function(){
+// document.querySelector('#coverall').addEventListener('load', function(){
   console.log('yo');
   // $('#site-header').css('display', 'none');
   // $('.cover-header').css('display', 'none');
@@ -18,7 +18,7 @@ document.querySelector('#coverall').addEventListener('load', function(){
   //     });
   //   });  
   // });
-});
+// });
 
 // if ( document.body.classList.contains('template-cover') ) {
 //   if (document.cookie.indexOf('visited=true') == -1 || 0 < window.location.href.indexOf('?develop=') ) {
