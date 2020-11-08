@@ -18,4 +18,4 @@ function mariona_page_template( $template ) {
 		return get_stylesheet_directory() . '/templates/template-full-width.php';
 	}
 }
-add_filter( 'page_template', 'mariona_page_template' );
+// add_filter( 'page_template', 'mariona_page_template' );
