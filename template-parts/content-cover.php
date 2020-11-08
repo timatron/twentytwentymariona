@@ -21,7 +21,7 @@
 	$image_url = ! post_password_required() ? get_the_post_thumbnail_url( get_the_ID(), 'twentytwenty-fullscreen' ) : '';
 
 	if ( $image_url ) {
-		$cover_header_style   = ' style="display: none; background-image: url( ' . esc_url( $image_url ) . ' );"';
+		$cover_header_style   = ' style="opacity: 0; background-image: url( ' . esc_url( $image_url ) . ' );"';
 		$cover_header_classes = ' bg-image';
 	}
 
@@ -83,7 +83,7 @@
 
 								<div class="to-the-content-wrapper">
 
-									<a href="#post-inner" class="to-the-content fill-children-current-color" style="display:none;">
+									<a href="#post-inner" class="to-the-content fill-children-current-color" style="opacity: 0;">
 										<?php twentytwenty_the_theme_svg( 'arrow-down' ); ?>
 										<div class="screen-reader-text"><?php _e( 'Scroll Down', 'twentytwenty' ); ?></div>
 									</a><!-- .to-the-content -->

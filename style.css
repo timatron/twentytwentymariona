@@ -6630,7 +6630,7 @@ ul.primary-menu {
 .template-cover {
 
 	.cover-header {
-		display: none;
+		opacity: 0;
 	}
 
 	.cover-header .entry-header * {
@@ -6638,14 +6638,14 @@ ul.primary-menu {
 	}
 
 	#site-header {
-		display: none;
+		opacity: 0;
 	}
 
 	#post-inner {
 		position: absolute;
 		top: 0;
 		z-index: -1;
-		display:none;
+		opacity: 0;
 	}
 
 	.to-the-content-wrapper {

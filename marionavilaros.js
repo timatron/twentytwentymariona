@@ -12,6 +12,12 @@ if ( document.body.classList.contains('template-cover') ) {
     // do intro
     jQuery(document).ready(function( $ ) {
       $('#site-header').css('display', 'none');
+      $('.cover-header').css('display', 'none');
+      $('#post-inner').css('display', 'none');
+      $('#site-header').css('opacity', '1');
+      $('.cover-header').css('opacity', '1');
+      $('#post-inner').css('opacity', '1');
+
       $('.cover-header').fadeIn(2000, function () {
         $('#site-header').fadeIn(1000, function () {
           $('#site-header').fadeOut(1000);
