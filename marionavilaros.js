@@ -15,28 +15,6 @@ if ( document.body.classList.contains('template-cover') ) {
     var expires = new Date((new Date()).valueOf() +  thirtydays);
     document.cookie = "visited=true;expires=" +  expires.toUTCString();
 
-    addStyle(`
-      #post-inner {
-        position: absolute;
-        top: 0;
-        z-index: -1;
-        display:none;
-      }
-
-      .to-the-content-wrapper {
-        display: none;
-      }
-
-      .stop-scrolling {
-        height: 100%;
-        overflow: hidden;
-      }
-
-      .cover-header {
-        display: none;
-      }
-    `);
-
     // lock screen
     window.scrollTo(0,0);
     document.body.classList.add('stop-scrolling');
