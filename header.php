@@ -30,7 +30,7 @@
 		wp_body_open();
 		?>
 
-		<header id="site-header" class="header-footer-group" role="banner"<?php if ( empty( $_COOKIE['visited'] ) ) :?> style="opacity:0;"<?php endif;?>>
+		<header id="site-header" class="header-footer-group" role="banner">
 
 			<div class="header-inner section-inner">
 
