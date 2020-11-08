@@ -8,10 +8,9 @@ function addStyle(styleString) {
   document.head.append(style);
 }
 
-
 if ( document.body.classList.contains('template-cover') ) {
 
-  if (document.cookie.indexOf('visited=true') == -1) {
+  if (document.cookie.indexOf('visited=true') == -1 || 0 < window.location.href.indexOf('?develop=') ) {
     var thirtydays = 1000*60*60*24*30;
     var expires = new Date((new Date()).valueOf() +  thirtydays);
     document.cookie = "visited=true;expires=" +  expires.toUTCString();
