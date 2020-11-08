@@ -9,11 +9,8 @@ if ( document.body.classList.contains('template-cover') ) {
     window.scrollTo(0,0);
     document.body.classList.add('stop-scrolling');
 
-    // // do intro
-    // document.querySelector('.cover-header').addEventListener('load', function(){
-  
-    // });
-    jQuery( '.cover-header' ).load(function( $ ) {
+    // do intro
+    document.querySelector('.cover-header').addEventListener('load', function(){
       console.log('yo');
       $('#site-header').css('display', 'none');
       $('.cover-header').css('display', 'none');
