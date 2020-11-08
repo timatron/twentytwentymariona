@@ -15,6 +15,7 @@ add_action( 'wp_enqueue_scripts','mariona_enqueue_assets' );
 
 function mariona_page_template( $template ) {
 	if ( is_page() ) {
+		print_r( $_COOKIE );
 		echo $template;
 		echo get_stylesheet_directory();
 		die();
