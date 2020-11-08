@@ -21,7 +21,7 @@
 	$image_url = ! post_password_required() ? get_the_post_thumbnail_url( get_the_ID(), 'twentytwenty-fullscreen' ) : '';
 
 	if ( $image_url ) {
-		$cover_header_style   = ' style="opacity: 0; background-image: url( ' . esc_url( $image_url ) . ' );"';
+		$cover_header_style   = ' style="background-image: url( ' . esc_url( $image_url ) . ' );"';
 		$cover_header_classes = ' bg-image';
 	}
 
