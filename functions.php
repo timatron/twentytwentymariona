@@ -15,7 +15,8 @@ add_action( 'wp_enqueue_scripts','mariona_enqueue_assets' );
 
 function mariona_page_template( $template ) {
 	if ( is_page() && ! empty( $_COOKIE['visited'] ) ) {
-		return get_stylesheet_directory() . '/templates/template-full-width.php';
+		echo get_stylesheet_directory() . '/templates/template-full-width.php';
+		die();
 	}
 }
-// add_filter( 'page_template', 'mariona_page_template' );
+add_filter( 'page_template', 'mariona_page_template' );
