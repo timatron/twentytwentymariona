@@ -27,10 +27,10 @@
 		<script type="text/javascript">
 			jQuery(document).ready( function($) {
 			 	console.log('set');
-			 	  var img = new Image();
-				  img.onload = doIntro();
-				  img.src = "<?php echo esc_url( $image_url ); ?>";
-				  img.appendTo('body').css('display','none');
+			 	var img = $('<img>');
+			 	img.onload = doIntro();
+				img.attr('src', "<?php echo esc_url( $image_url ); ?>");
+				img.appendTo('body').css('display','none');
 			});
 		</script>
 
