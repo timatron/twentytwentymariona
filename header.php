@@ -115,8 +115,7 @@
 
 						<div class="site-title faux-heading"><a href="http://marionavilaros.com/">Mariona Vilarós Capella</a></div>
 						<div class="header-dash">
-							—
-						</div>
+							—</div>
 
 						<nav class="primary-menu-wrapper" aria-label="Horizontal" role="navigation">
 
