@@ -6477,7 +6477,7 @@ body.template-full-width .entry-content {
   width: 100%;
   background-color: transparent;
   z-index: 999;
-  top: 4rem !important;
+  top: 5rem !important;
 }
 
 .header-inner {
@@ -6485,7 +6485,7 @@ body.template-full-width .entry-content {
   display: flex;
   justify-content: space-between;
   padding: 0;
-  width: calc(100% - 8rem);
+  width: calc(100% - 12rem);
 }
 
 .header-titles-wrapper {
