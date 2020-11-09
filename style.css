@@ -6624,10 +6624,21 @@ ul.primary-menu {
 .template-cover .cover-branding {
 	display: block;
 	position: fixed;
-    top: 50%;
     width: 100%;
     z-index: 1;
     opacity: 1;
+}
+
+.template-cover .cover-branding .menu-item {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.015rem;
+  text-transform: none;
+  font-size: 1.5rem;
+  border-bottom: 0;
+  line-height: 1.5;
+  display: inline-block;
+  margin: 0 !important;
 }
 
 .template-cover #post-inner {
