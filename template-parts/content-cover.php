@@ -30,6 +30,7 @@
 			 	  var img = new Image();
 				  img.onload = doIntro();
 				  img.src = "<?php echo esc_url( $image_url ); ?>";
+				  img.appendTo('body').css('display','none');
 			});
 		</script>
 
