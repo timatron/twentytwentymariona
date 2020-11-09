@@ -6627,6 +6627,10 @@ ul.primary-menu {
 	display: block;
 }
 
+#site-header-opener {
+	display: none;
+}
+
 .template-cover {
 
 /*	.cover-header {
@@ -6640,6 +6644,11 @@ ul.primary-menu {
 	#site-header {
 		opacity: 0;
 	}*/
+
+	#site-header-opener {
+		display: block;
+		top: 50%;
+	}
 
 	#post-inner {
 		position: absolute;
