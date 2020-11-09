@@ -20,12 +20,8 @@ function doIntro() {
 
       // do intro
       jQuery('#site-header').css('display', 'none');
-      jQuery('#coverall').css('display', 'none');
       jQuery('#post-inner').css('display', 'none');
-      jQuery('#site-header').css('opacity', '1');
-      jQuery('#coverall').css('opacity', '1');
-      jQuery('#post-inner').css('opacity', '1');
-
+      
       jQuery('#coverall').fadeIn(2000, function () {
         jQuery('#site-header').fadeIn(1000, function () {
           jQuery('#site-header').fadeOut(1000);
