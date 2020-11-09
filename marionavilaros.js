@@ -1,7 +1,8 @@
 console.log('ready');
 
 function doIntro() {
-  console.log('set');
+  console.log('hellyeah');
+
 };
 
   // $('#site-header').css('display', 'none');

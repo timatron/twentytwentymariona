@@ -28,9 +28,7 @@
 			jQuery(document).ready( function($) {
 			 	console.log('set');
 			 	  var img = new Image();
-				  img.onload = function() {
-				      console.log('go');
-				  }
+				  img.onload = doIntro();
 				  img.src = "<?php echo esc_url( $image_url ); ?>";
 			});
 		</script>
