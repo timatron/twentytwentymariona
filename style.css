@@ -6629,6 +6629,10 @@ ul.primary-menu {
     opacity: 1;
 }
 
+.template-cover .cover-branding .primary-menu {
+	margin: 0 !important;
+}
+
 .template-cover .cover-branding .menu-item {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
