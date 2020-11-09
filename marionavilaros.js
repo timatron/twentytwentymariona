@@ -7,20 +7,20 @@ function doIntro() {
 
   // lock screen
   window.scrollTo(0,0);
-  document.body.classList.add('stop-scrolling');
+  $j('body').addClass('stop-scrolling');
 
   // do intro
-  $j('#site-header').css('display', 'none');
-  $j('.cover-header').css('display', 'none');
-  $j('#post-inner').css('display', 'none');
-  $j('#site-header').css('opacity', '1');
-  $j('.cover-header').css('opacity', '1');
-  $j('#post-inner').css('opacity', '1');
+  // $j('#site-header').css('display', 'none');
+  // $j('#coverall').css('display', 'none');
+  // $j('#post-inner').css('display', 'none');
+  // $j('#site-header').css('opacity', '1');
+  // $j('#coverall').css('opacity', '1');
+  // $j('#post-inner').css('opacity', '1');
 
-  $j('.cover-header').fadeIn(2000, function () {
+  $j('#coverall').fadeIn(2000, function () {
     $j('#site-header').fadeIn(1000, function () {
       $j('#site-header').fadeOut(1000);
-      $j('.cover-header').fadeOut(1000, function () {
+      $j('#coverall').fadeOut(1000, function () {
         $j('#site-header').fadeIn(1000);
         $j('#post-inner').fadeIn(1000, function () {
           $j('body').removeClass('stop-scrolling');
