@@ -6627,16 +6627,18 @@ ul.primary-menu {
 	display: block;
 }
 
-#site-header-opener {
+.cover-branding {
 	display: none;
 }
 
-.template-cover > #site-header-opener {
-	display: block !important;
-	top: 50%;
+.template-cover .cover-branding {
+	display: block;
+	position: fixed;
+    top: 50%;
+    width: 100%;
 }
 
-.template-cover > #post-inner {
+.template-cover #post-inner {
 	position: absolute;
 	top: 0;
 	z-index: -1;

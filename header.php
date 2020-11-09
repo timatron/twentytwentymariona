@@ -105,7 +105,7 @@
 
 		</header><!-- #site-header -->
 
-		<div id="site-header-opener" class="header-footer-group" role="banner" style="">
+		<div id="site-header-opener" class="cover-branding header-footer-group" role="banner" style="">
 
 			<div class="header-inner section-inner">
 
