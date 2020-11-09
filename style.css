@@ -1334,7 +1334,6 @@ ul.social-icons li {
 }
 
 .header-inner {
-	max-width: 168rem;
 	padding: 3.15rem 0;
 	z-index: 100;
 }
@@ -6478,7 +6477,7 @@ body.template-full-width .entry-content {
   width: 100%;
   background-color: transparent;
   z-index: 999;
-  top: 3rem !important;
+  top: 4rem !important;
 }
 
 .header-inner {
@@ -6486,7 +6485,7 @@ body.template-full-width .entry-content {
   display: flex;
   justify-content: space-between;
   padding: 0;
-  width: calc(100% - 4rem);
+  width: calc(100% - 8rem);
 }
 
 .header-titles-wrapper {
