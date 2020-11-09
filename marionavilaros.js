@@ -23,7 +23,7 @@ function doIntro() {
       jQuery('#post-inner').css('display', 'none');
       
       jQuery('#site-header').fadeIn(1000, function () {
-        jQuery('#site-header').fadeOut(1000);
+        jQuery('#site-header').delay(2000).fadeOut(1000);
         jQuery('#coverall').fadeOut(1000, function () {
           jQuery('#site-header').fadeIn(1000);
           jQuery('#post-inner').fadeIn(1000, function () {
