@@ -1,6 +1,6 @@
 console.log('ready');
 
-document.getElementById('#coverall').addEventListener('load', function(){
+document.getElementById('coverall').addEventListener('load', function(){
   console.log('set');
 
   
