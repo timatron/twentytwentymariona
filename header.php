@@ -105,6 +105,37 @@
 
 		</header><!-- #site-header -->
 
+		<div id="site-header-opener" class="header-footer-group" role="banner" style="">
+
+			<div class="header-inner section-inner">
+
+				<div class="header-titles-wrapper">
+
+					<div class="header-titles">
+
+						<div class="site-title faux-heading"><a href="http://marionavilaros.com/">Mariona Vilarós Capella</a></div>
+						<div class="header-dash">
+							—
+						</div>
+
+						<nav class="primary-menu-wrapper" aria-label="Horizontal" role="navigation">
+
+							<ul class="primary-menu reset-list-style">
+
+							<li id="menu-item-796" class="menu-item">Photographer</li>
+
+							</ul>
+
+						</nav><!-- .primary-menu-wrapper -->
+
+					</div><!-- .header-titles -->
+
+				</div><!-- .header-titles-wrapper -->
+
+			</div><!-- .header-inner -->
+			
+		</div>
+
 		<?php
 		// Output the menu modal.
 		get_template_part( 'template-parts/modal-menu' );
