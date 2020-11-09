@@ -6627,6 +6627,10 @@ ul.primary-menu {
 	display: block;
 }
 
+.template-cover #site-header {
+	display: none;
+}
+
 .cover-branding {
 	display: none;
 }
