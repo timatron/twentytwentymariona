@@ -28,7 +28,7 @@ function doIntro() {
       $j('#coverall').css('opacity', '1');
       $j('#post-inner').css('opacity', '1');
 
-      $j('#coverall').fadeIn(2000, function () {
+      $j('#coverall').fadeIn(4000, function () {
         $j('#site-header').fadeIn(1000, function () {
           // $j('#site-header').fadeOut(1000);
           // $j('#coverall').fadeOut(1000, function () {
