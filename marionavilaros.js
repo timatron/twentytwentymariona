@@ -1,11 +1,8 @@
 console.log('ready');
 
-document.getElementById('coverall').addEventListener('load', function(){
+function doIntro() {
   console.log('set');
-
-  
-
-});
+};
 
   // $('#site-header').css('display', 'none');
   // $('.cover-header').css('display', 'none');
