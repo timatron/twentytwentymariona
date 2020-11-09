@@ -22,10 +22,12 @@ function doIntro() {
       jQuery('#site-header').css('display', 'none');
       jQuery('#post-inner').css('display', 'none');
       
-      jQuery('#coverall').delay(4000).fadeOut(1000, function () {
-        jQuery('#site-header').fadeIn(1000);
-        jQuery('#post-inner').fadeIn(1000, function () {
-          jQuery('body').removeClass('stop-scrolling');
+      jQuery('#coverall').delay(3000).fadeOut(1000, function () {
+        jQuery('.cover-branding').fadeOut(1000, function () {
+          jQuery('#post-inner').fadeIn(1000, function () {
+            jQuery('#site-header').fadeIn(1000);
+            jQuery('body').removeClass('stop-scrolling');
+          });
         });
       });
    
