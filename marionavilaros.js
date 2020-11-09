@@ -22,15 +22,12 @@ function doIntro() {
       jQuery('#site-header').css('display', 'none');
       jQuery('#post-inner').css('display', 'none');
       
-      jQuery('#site-header').fadeIn(1000, function () {
-        jQuery('#site-header').delay(2000).fadeOut(1000);
-        jQuery('#coverall').fadeOut(1000, function () {
-          jQuery('#site-header').fadeIn(1000);
-          jQuery('#post-inner').fadeIn(1000, function () {
-            jQuery('body').removeClass('stop-scrolling');
-          });
+      jQuery('#coverall').delay(4000).fadeOut(1000, function () {
+        jQuery('#site-header').fadeIn(1000);
+        jQuery('#post-inner').fadeIn(1000, function () {
+          jQuery('body').removeClass('stop-scrolling');
         });
-      });  
+      });
    
     // }
   }
