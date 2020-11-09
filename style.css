@@ -6640,6 +6640,8 @@ ul.primary-menu {
 	position: fixed;
     top: 50%;
     width: 100%;
+    z-index: 1;
+    opacity: 1;
 }
 
 .template-cover #post-inner {
