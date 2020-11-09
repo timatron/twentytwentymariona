@@ -6631,12 +6631,12 @@ ul.primary-menu {
 	display: none;
 }
 
-.template-cover #site-header-opener {
-	display: block;
+.template-cover > #site-header-opener {
+	display: block !important;
 	top: 50%;
 }
 
-.template-cover #post-inner {
+.template-cover > #post-inner {
 	position: absolute;
 	top: 0;
 	z-index: -1;
