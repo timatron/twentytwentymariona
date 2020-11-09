@@ -25,8 +25,14 @@
 		$cover_header_classes = ' bg-image';
 		?>
 		<script type="text/javascript">
-		    if(document.images)
-		        (new Image()).src="<?php echo esc_url( $image_url ); ?>";
+			jQuery(document).ready( function($) {
+			 	console.log('set');
+			 	  var img = new Image();
+				  img.onload = function() {
+				      console.log('go');
+				  }
+				  img.src = "<?php echo esc_url( $image_url ); ?>";
+			});
 		</script>
 
 		<?php
@@ -51,7 +57,7 @@
 	$color_overlay_classes .= ' opacity-' . $color_overlay_opacity;
 	?>
 
-	<div id="coverall" onload="doIntro()" class="cover-header <?php echo $cover_header_classes; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- static output ?>"<?php echo $cover_header_style; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- We need to double check this, but for now, we want to pass PHPCS ;) ?>>
+	<div id="coverall" class="cover-header <?php echo $cover_header_classes; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- static output ?>"<?php echo $cover_header_style; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- We need to double check this, but for now, we want to pass PHPCS ;) ?>>
 		<div class="cover-header-inner-wrapper screen-height">
 			<div class="cover-header-inner">
 				<div class="cover-color-overlay color-accent<?php echo esc_attr( $color_overlay_classes ); ?>"<?php echo $color_overlay_style; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped -- We need to double check this, but for now, we want to pass PHPCS ;) ?>></div>
