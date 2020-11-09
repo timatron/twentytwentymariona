@@ -1622,7 +1622,8 @@ ul.primary-menu {
 
 .primary-menu li.current-menu-item > a,
 .primary-menu li.current-menu-item > .link-icon-wrapper > a {
-	text-decoration: underline;
+	font-weight: 500;
+	font-style: italic;
 }
 
 .primary-menu li.current-menu-item > a:hover,
@@ -6467,7 +6468,7 @@ body.template-full-width .entry-content {
 }
 
 .wp-block-columns {
-	padding: 0 !important;
+  padding: 0 !important;
   width: 100% !important;
   max-width: none !important;
 }
