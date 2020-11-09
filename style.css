@@ -6631,40 +6631,24 @@ ul.primary-menu {
 	display: none;
 }
 
-.template-cover {
+.template-cover #site-header-opener {
+	display: block;
+	top: 50%;
+}
 
-/*	.cover-header {
-		opacity: 0;
-	}
+.template-cover #post-inner {
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	opacity: 0;
+	display: none;
+}
 
-	.cover-header .entry-header * {
-		color: #ffffff !important;
-	}
+.to-the-content-wrapper {
+	display: none;
+}
 
-	#site-header {
-		opacity: 0;
-	}*/
-
-	#site-header-opener {
-		display: block;
-		top: 50%;
-	}
-
-	#post-inner {
-		position: absolute;
-		top: 0;
-		z-index: -1;
-		opacity: 0;
-		display: none;
-	}
-
-	.to-the-content-wrapper {
-		display: none;
-	}
-
-	.stop-scrolling {
-		height: 100%;
-		overflow: hidden;
-	}
-
+.stop-scrolling {
+	height: 100%;
+	overflow: hidden;
 }
