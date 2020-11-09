@@ -1,8 +1,6 @@
 console.log('ready');
 
 function doIntro() {
-  var $j = jQuery.noConflict();
-
   console.log('hellyeah');
 
   if ( document.body.classList.contains('template-cover') ) {
@@ -18,23 +16,23 @@ function doIntro() {
      
       // lock screen
       window.scrollTo(0,0);
-      $j('body').addClass('stop-scrolling');
+      jQuery('body').addClass('stop-scrolling');
 
       // do intro
-      $j('#site-header').css('display', 'none');
-      $j('#coverall').css('display', 'none');
-      $j('#post-inner').css('display', 'none');
-      $j('#site-header').css('opacity', '1');
-      $j('#coverall').css('opacity', '1');
-      $j('#post-inner').css('opacity', '1');
+      jQuery('#site-header').css('display', 'none');
+      jQuery('#coverall').css('display', 'none');
+      jQuery('#post-inner').css('display', 'none');
+      jQuery('#site-header').css('opacity', '1');
+      jQuery('#coverall').css('opacity', '1');
+      jQuery('#post-inner').css('opacity', '1');
 
-      $j('#coverall').fadeIn(4000, function () {
-        $j('#site-header').fadeIn(1000, function () {
-          $j('#site-header').fadeOut(1000);
-          $j('#coverall').fadeOut(1000, function () {
-            $j('#site-header').fadeIn(1000);
-            $j('#post-inner').fadeIn(1000, function () {
-              $j('body').removeClass('stop-scrolling');
+      jQuery('#coverall').fadeIn(2000, function () {
+        jQuery('#site-header').fadeIn(1000, function () {
+          jQuery('#site-header').fadeOut(1000);
+          jQuery('#coverall').fadeOut(1000, function () {
+            jQuery('#site-header').fadeIn(1000);
+            jQuery('#post-inner').fadeIn(1000, function () {
+              jQuery('body').removeClass('stop-scrolling');
             });
           });
         });  
