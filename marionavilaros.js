@@ -27,13 +27,13 @@ function doIntro() {
 
       $j('#coverall').fadeIn(2000, function () {
         $j('#site-header').fadeIn(1000, function () {
-          $j('#site-header').fadeOut(1000);
-          $j('#coverall').fadeOut(1000, function () {
-            $j('#site-header').fadeIn(1000);
-            $j('#post-inner').fadeIn(1000, function () {
-              $j('body').removeClass('stop-scrolling');
-            });
-          });
+          // $j('#site-header').fadeOut(1000);
+          // $j('#coverall').fadeOut(1000, function () {
+          //   $j('#site-header').fadeIn(1000);
+          //   $j('#post-inner').fadeIn(1000, function () {
+          //     $j('body').removeClass('stop-scrolling');
+          //   });
+          // });
         });  
       });
     
