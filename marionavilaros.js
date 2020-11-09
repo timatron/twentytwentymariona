@@ -7,7 +7,7 @@ function doIntro() {
 
   if ( document.body.classList.contains('template-cover') ) {
     // if ( document.cookie.indexOf('visited=true') == -1 || 0 < window.location.href.indexOf('?develop=') ) {
-    if ( 0 < window.location.href.indexOf('?develop=') ) {
+    // if ( 0 < window.location.href.indexOf('?develop=') ) {
       // set cookie
       // var thirtydays = 1000*60*60*24*30;
       // var expires = new Date((new Date()).valueOf() +  thirtydays);
@@ -37,7 +37,7 @@ function doIntro() {
         });  
       });
     
-    }
+    // }
   }
 };
 
