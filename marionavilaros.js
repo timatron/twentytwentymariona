@@ -1,5 +1,12 @@
-// document.querySelector('#coverall').addEventListener('load', function(){
-  console.log('yo');
+console.log('ready');
+
+document.getElementById('#coverall').addEventListener('load', function(){
+  console.log('set');
+
+  
+
+});
+
   // $('#site-header').css('display', 'none');
   // $('.cover-header').css('display', 'none');
   // $('#post-inner').css('display', 'none');
