@@ -23,7 +23,7 @@ function doIntro() {
       jQuery('#post-inner').css('display', 'none');
       jQuery('#coverall').css('display', 'none');
       
-      jQuery('#coverall').fadeIn(3000, function () {
+      jQuery('#coverall').fadeIn(2000, function () {
         jQuery('#coverall').delay(1000).fadeOut(1000, function () {
           jQuery('.cover-branding').css('display', 'none');
           jQuery('#post-inner').fadeIn(1000, function () {
