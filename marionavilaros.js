@@ -21,14 +21,18 @@ function doIntro() {
       // do intro
       jQuery('#site-header').css('display', 'none');
       jQuery('#post-inner').css('display', 'none');
+      jQuery('#coverall').css('display', 'none');
       
-      jQuery('#coverall').delay(2500).fadeOut(1000, function () {
-        jQuery('.cover-branding').css('display', 'none');
-        jQuery('#post-inner').fadeIn(1000, function () {
-          jQuery('#site-header').fadeIn(1000);
-          jQuery('body').removeClass('stop-scrolling');
+      jQuery('#coverall').fadeIn(3000, function () {
+        jQuery('#coverall').delay(1000).fadeOut(1000, function () {
+          jQuery('.cover-branding').css('display', 'none');
+          jQuery('#post-inner').fadeIn(1000, function () {
+            jQuery('#site-header').fadeIn(1000);
+            jQuery('body').removeClass('stop-scrolling');
+          });
         });
       });
+     
    
     // }
   }
