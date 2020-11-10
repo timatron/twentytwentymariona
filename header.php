@@ -104,7 +104,7 @@
 			?>
 
 		</header><!-- #site-header -->
-
+		<?php if ( is_home() ) : ?>
 		<div id="site-header-opener" class="cover-branding header-footer-group" role="banner" style="">
 
 			<div class="header-inner section-inner">
@@ -134,6 +134,7 @@
 			</div><!-- .header-inner -->
 			
 		</div>
+		<?php endif; ?>
 
 		<?php
 		// Output the menu modal.

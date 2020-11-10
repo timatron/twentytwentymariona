@@ -6633,10 +6633,6 @@ ul.primary-menu {
 	display: block;
 }
 
-#site-header-opener {
-	display: none;
-}
-
 .stop-scrolling {
 	height: 100%;
 	overflow: hidden;
