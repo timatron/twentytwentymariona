@@ -6704,7 +6704,21 @@ ul.primary-menu {
 
 
 /* MOBILE ONLY */
-@media (max-width: 400px) {
+@media (max-width: 500px) {
+
+	#site-header, #site-header-opener {
+		top: 2.5rem !important;
+	}
+	
+	.entry-content {
+		width: calc( 100% - 6em );
+		margin: 0 auto;
+	}
+
+	.home .wp-block-image {
+		padding: 12%;
+	}
+
 	.header-navigation-wrapper-two { 
 		display: none; 
 	}
