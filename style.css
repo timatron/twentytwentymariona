@@ -6709,8 +6709,8 @@ ul.primary-menu {
 	#site-header, #site-header-opener {
 		top: 2.5rem !important;
 	}
-	
-	.entry-content {
+
+	.section-inner, .entry-content {
 		width: calc( 100% - 6em );
 		margin: 0 auto;
 	}
