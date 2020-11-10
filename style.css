@@ -6693,3 +6693,13 @@ ul.primary-menu {
 .home .to-the-content-wrapper {
 	display: none;
 }
+
+
+
+/* MOBILE ONLY */
+@media (max-width: 400px) {
+	.header-navigation-wrapper-two { 
+		display: none; 
+	}
+}
+
