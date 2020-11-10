@@ -6668,7 +6668,7 @@ ul.primary-menu {
 }
 
 .template-cover .cover-branding {
-	display: block;
+	display: none;
     width: 100%;
     z-index: 1;
     opacity: 1;
