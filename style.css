@@ -6649,12 +6649,15 @@ ul.primary-menu {
 }
 
 .entry-content {
-	width: calc( 100% - 12em ) !important;
+	width: calc( 100% - 12em );
 	margin: 0 auto;
 }
 
 /* Only Homepage */
 
+.home .entry-content {
+	width: 100%;
+}
 
 .home .wp-block-image {
 	padding: 24%;
