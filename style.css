@@ -6651,6 +6651,10 @@ ul.primary-menu {
 
 /* Only Homepage */
 
+.home .cover-header {
+	display: none;
+}
+
 .home .entry-content {
 	width: 100%;
 }
