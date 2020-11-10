@@ -103,7 +103,7 @@ blockquote::after {
 
 
 html {
-	font-size: 25%; /* 1rem = 10px */
+	font-size: 31.25%; /* 1rem = 10px */
 	scroll-behavior: smooth;
 }
 
@@ -6483,8 +6483,8 @@ body, .entry-content {
 }
 
 .site-title {
-	font-size: 2.4rem;
-			font-weight: 700;
+	font-size: 4.8rem;
+	font-weight: 700;
 }
 
 #site-header, #site-header-opener {
@@ -6516,15 +6516,15 @@ body, .entry-content {
 }
 
 .header-nav-list {
-  font-size: 1rem;
+  font-size: 2rem;
 }
 
 .site-title {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  letter-spacing: 0.015rem;
+  letter-spacing: 0.03rem;
   text-transform: none;
-  font-size: 1.5rem;
+  font-size: 3rem;
   border-bottom: 0;
   line-height: 1.5;
   display: inline-block;
@@ -6556,11 +6556,11 @@ ul.primary-menu {
 .primary-menu a {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 2.4rem;
   font-style: normal;
-  letter-spacing: 0.025rem;
+  letter-spacing: 0.05rem;
   text-transform: none;
-  line-height: 1.2em;
+  line-height: 2.4em;
   color: #000000 !important;
 }
 
@@ -6605,7 +6605,7 @@ ul.primary-menu {
   font-weight: 300;
   margin-bottom: 10px;
   margin-left: 40px;
-  font-size: 1.5rem;
+  font-size: 3rem;
 }
 
 @media screen and (max-width: 575px) {
@@ -6626,7 +6626,7 @@ ul.primary-menu {
 .footer-copyright {
   float: right;
   margin-right: 40px;
-  font-size: 1.2rem;
+  font-size: 2.4rem;
 }
 
 #site-header {
@@ -6674,9 +6674,9 @@ ul.primary-menu {
 .home .template-cover #site-header-opener .menu-item {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
-  letter-spacing: 0.03rem;
+  letter-spacing: 0.06rem;
   text-transform: none;
-  font-size: 1.4rem;
+  font-size: 2.8rem;
   border-bottom: 0;
   line-height: 1.5;
   display: inline-block;
