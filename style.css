@@ -6663,23 +6663,22 @@ ul.primary-menu {
 	padding: 24%;
 }
 
-.home .template-cover #site-header {
+.template-cover #site-header {
 	display: none;
 }
 
-
-.home .template-cover #site-header-opener {
+.template-cover .cover-branding {
 	display: block;
     width: 100%;
     z-index: 1;
     opacity: 1;
 }
 
-.home .template-cover #site-header-opener .primary-menu {
+.template-cover .cover-branding .primary-menu {
 	margin: 0 !important;
 }
 
-.home .template-cover #site-header-opener .menu-item {
+.template-cover .cover-branding .menu-item {
   font-family: 'Montserrat', sans-serif;
   font-weight: 500;
   letter-spacing: 0.03rem;
@@ -6691,14 +6690,14 @@ ul.primary-menu {
   margin: 0 !important;
 }
 
-.home .template-cover #post-inner {
+.template-cover #post-inner {
 	position: absolute;
 	top: 0;
 	z-index: -1;
 	display: none;
 }
 
-.home .to-the-content-wrapper {
+.template-cover.to-the-content-wrapper {
 	display: none;
 }
 
