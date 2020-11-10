@@ -6642,17 +6642,18 @@ ul.primary-menu {
 	overflow: hidden;
 }
 
+.wp-block-columns {
+  padding: 0 !important;
+  width: 100% !important;
+  max-width: none !important;
+}
+
+
 /* Only Homepage */
 
 
 .home .wp-block-image {
 	padding: 24%;
-}
-
-.home .wp-block-columns {
-  padding: 0 !important;
-  width: 100% !important;
-  max-width: none !important;
 }
 
 .home .template-cover #site-header {
