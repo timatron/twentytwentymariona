@@ -6474,6 +6474,10 @@ body, .entry-content {
   font-family: 'Montserrat', sans-serif;
 }
 
+.header-inner {
+	max-width: none !important;
+}
+
 .entry-title { 
   display: none; 
 }
@@ -6558,6 +6562,12 @@ ul.primary-menu {
   text-transform: none;
   line-height: 1.2em;
   color: #000000 !important;
+}
+
+.primary-menu li.current-menu-item > a,
+.primary-menu li.current-menu-item > .link-icon-wrapper > a {
+	font-weight: 500;
+	font-style: italic;
 }
 
 .insta-wrapper {
