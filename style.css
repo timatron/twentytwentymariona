@@ -6648,6 +6648,10 @@ ul.primary-menu {
   max-width: none !important;
 }
 
+.entry-content {
+	width: calc( 100% - 12em ) !important;
+	margin: 0 auto;
+}
 
 /* Only Homepage */
 
