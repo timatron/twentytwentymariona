@@ -38,9 +38,9 @@ function doIntro() {
 
 function removeLightboxOnMobile(width) {
   if (width.matches) { 
-    document.body.style.backgroundColor = "yellow";
+    // document.body.style.backgroundColor = "yellow";
   } else {
-    document.body.style.backgroundColor = "pink";
+    // document.body.style.backgroundColor = "pink";
   }
 }
 
