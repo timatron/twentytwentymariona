@@ -6480,7 +6480,7 @@ body, .entry-content {
 
 .site-title {
 	font-size: 2.4rem;
-	font-weight: 700;
+			font-weight: 700;
 }
 
 #site-header, #site-header-opener {
@@ -6634,55 +6634,52 @@ ul.primary-menu {
 
 /* Only Homepage */
 
-.home {
 
-	.wp-block-image {
-		padding: 24%;
-	}
+.home .wp-block-image {
+	padding: 24%;
+}
 
-	.wp-block-columns {
-	  padding: 0 !important;
-	  width: 100% !important;
-	  max-width: none !important;
-	}
+.home .wp-block-columns {
+  padding: 0 !important;
+  width: 100% !important;
+  max-width: none !important;
+}
 
-	.template-cover #site-header {
-		display: none;
-	}
+.home .template-cover #site-header {
+	display: none;
+}
 
 
-	.template-cover #site-header-opener {
-		display: block;
-	    width: 100%;
-	    z-index: 1;
-	    opacity: 1;
-	}
+.home .template-cover #site-header-opener {
+	display: block;
+    width: 100%;
+    z-index: 1;
+    opacity: 1;
+}
 
-	.template-cover #site-header-opener .primary-menu {
-		margin: 0 !important;
-	}
+.home .template-cover #site-header-opener .primary-menu {
+	margin: 0 !important;
+}
 
-	.template-cover #site-header-opener .menu-item {
-	  font-family: 'Montserrat', sans-serif;
-	  font-weight: 500;
-	  letter-spacing: 0.03rem;
-	  text-transform: none;
-	  font-size: 1.4rem;
-	  border-bottom: 0;
-	  line-height: 1.5;
-	  display: inline-block;
-	  margin: 0 !important;
-	}
+.home .template-cover #site-header-opener .menu-item {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: 0.03rem;
+  text-transform: none;
+  font-size: 1.4rem;
+  border-bottom: 0;
+  line-height: 1.5;
+  display: inline-block;
+  margin: 0 !important;
+}
 
-	.template-cover #post-inner {
-		position: absolute;
-		top: 0;
-		z-index: -1;
-		display: none;
-	}
+.home .template-cover #post-inner {
+	position: absolute;
+	top: 0;
+	z-index: -1;
+	display: none;
+}
 
-	.to-the-content-wrapper {
-		display: none;
-	}
-
+.home .to-the-content-wrapper {
+	display: none;
 }
