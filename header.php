@@ -104,7 +104,7 @@
 			?>
 
 		</header><!-- #site-header -->
-		<?php if ( is_home() ) : ?>
+		<?php if ( is_front_page() ) : ?>
 		<div id="site-header-opener" class="cover-branding header-footer-group" role="banner" style="">
 
 			<div class="header-inner section-inner">
