@@ -25,8 +25,8 @@ function doIntro() {
       
       jQuery('#coverall').fadeIn(2000, function () {
         jQuery('#coverall').delay(1000).fadeOut(1000, function () {
-          jQuery('.cover-branding').css('display', 'none');
           jQuery('#post-inner').fadeIn(1000, function () {
+            jQuery('.cover-branding').fadeOut(1000);
             jQuery('#site-header').fadeIn(1000);
             jQuery('body').removeClass('stop-scrolling');
           });
