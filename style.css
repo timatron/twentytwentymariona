@@ -9,7 +9,6 @@ Version: 1.0.0
 Text Domain: twentytwenty-child
 */ 
 
-
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
@@ -981,11 +980,24 @@ section {
 .section-inner {
 	margin-left: auto;
 	margin-right: auto;
+	max-width: 120rem;
 	width: calc(100% - 4rem);
 }
 
 .section-inner.max-percentage {
 	width: 100%;
+}
+
+.section-inner.thin {
+	max-width: 58rem;
+}
+
+.section-inner.small {
+	max-width: 80rem;
+}
+
+.section-inner.medium {
+	max-width: 100rem;
 }
 
 .section-inner.no-margin {
@@ -1334,6 +1346,7 @@ ul.social-icons li {
 }
 
 .header-inner {
+	max-width: 168rem;
 	padding: 3.15rem 0;
 	z-index: 100;
 }
@@ -1361,7 +1374,7 @@ body:not(.enable-search-modal) .header-titles-wrapper {
 }
 
 .site-title {
-	font-size: 1.5rem;
+	font-size: 2.1rem;
 	font-weight: 600;
 	line-height: 1;
 }
@@ -1411,11 +1424,11 @@ body:not(.enable-search-modal) .site-logo img {
 .overlay-header #site-header {
 	background: transparent;
 	margin: 0;
-	position: fixed;
+	position: absolute;
 	left: 0;
 	right: 0;
 	top: 0;
-	z-index: -1;
+	z-index: 2;
 }
 
 .overlay-header .header-inner {
@@ -1621,8 +1634,7 @@ ul.primary-menu {
 
 .primary-menu li.current-menu-item > a,
 .primary-menu li.current-menu-item > .link-icon-wrapper > a {
-	font-weight: 500;
-	font-style: italic;
+	text-decoration: underline;
 }
 
 .primary-menu li.current-menu-item > a:hover,
@@ -4849,6 +4861,10 @@ a.to-the-top > * {
 		padding: 8rem 0;
 	}
 
+	.section-inner {
+		width: calc(100% - 8rem);
+	}
+
 
 	/* Site Header --------------------------- */
 
@@ -4857,8 +4873,8 @@ a.to-the-top > * {
 	}
 
 	.site-title {
-		font-size: 1.5rem;
-		font-weight: 600;
+		font-size: 2.4rem;
+		font-weight: 700;
 	}
 
 	.site-description {
@@ -6443,6 +6459,11 @@ a.to-the-top > * {
 	}
 }
 
+
+
+
+
+
 /* Custom CSS goes after this line */
 
 
@@ -6457,19 +6478,9 @@ body, .entry-content {
   display: none; 
 }
 
-.home .wp-block-image {
-	padding: 24%;
-}
-
-body.template-full-width .entry-content {
-	max-width: 166rem;
-	margin: 0 auto;
-}
-
-.wp-block-columns {
-  padding: 0 !important;
-  width: 100% !important;
-  max-width: none !important;
+.site-title {
+	font-size: 2.4rem;
+	font-weight: 700;
 }
 
 #site-header, #site-header-opener {
@@ -6612,49 +6623,66 @@ ul.primary-menu {
 	display: block;
 }
 
-.template-cover #site-header {
-	display: none;
-}
-
-.cover-branding {
-	display: none;
-}
-
-.template-cover .cover-branding {
-	display: block;
-    width: 100%;
-    z-index: 1;
-    opacity: 1;
-}
-
-.template-cover .cover-branding .primary-menu {
-	margin: 0 !important;
-}
-
-.template-cover .cover-branding .menu-item {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 500;
-  letter-spacing: 0.03rem;
-  text-transform: none;
-  font-size: 1.4rem;
-  border-bottom: 0;
-  line-height: 1.5;
-  display: inline-block;
-  margin: 0 !important;
-}
-
-.template-cover #post-inner {
-	position: absolute;
-	top: 0;
-	z-index: -1;
-	display: none;
-}
-
-.to-the-content-wrapper {
+#site-header-opener {
 	display: none;
 }
 
 .stop-scrolling {
 	height: 100%;
 	overflow: hidden;
+}
+
+/* Only Homepage */
+
+.home {
+
+	.wp-block-image {
+		padding: 24%;
+	}
+
+	.wp-block-columns {
+	  padding: 0 !important;
+	  width: 100% !important;
+	  max-width: none !important;
+	}
+
+	.template-cover #site-header {
+		display: none;
+	}
+
+
+	.template-cover #site-header-opener {
+		display: block;
+	    width: 100%;
+	    z-index: 1;
+	    opacity: 1;
+	}
+
+	.template-cover #site-header-opener .primary-menu {
+		margin: 0 !important;
+	}
+
+	.template-cover #site-header-opener .menu-item {
+	  font-family: 'Montserrat', sans-serif;
+	  font-weight: 500;
+	  letter-spacing: 0.03rem;
+	  text-transform: none;
+	  font-size: 1.4rem;
+	  border-bottom: 0;
+	  line-height: 1.5;
+	  display: inline-block;
+	  margin: 0 !important;
+	}
+
+	.template-cover #post-inner {
+		position: absolute;
+		top: 0;
+		z-index: -1;
+		display: none;
+	}
+
+	.to-the-content-wrapper {
+		display: none;
+	}
+
 }
