@@ -6600,13 +6600,6 @@ ul.primary-menu {
   display: none;
 }
 
-.page-id-126 .footer-copyright {
-  display: block !important;
-  font-weight: 300;
-  margin-bottom: 10px;
-  margin-left: 40px;
-  font-size: 1.5rem;
-}
 
 @media screen and (max-width: 575px) {
   .footer-copyright {
