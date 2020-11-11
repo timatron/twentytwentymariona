@@ -6694,7 +6694,9 @@ ul.primary-menu {
 	display: none;
 }
 
-
+.sl-overlay {
+	opacity: 0.9;
+}
 
 /* MOBILE ONLY */
 @media (max-width: 500px) {
