@@ -14,8 +14,10 @@ function mariona_enqueue_assets() {
 add_action( 'wp_enqueue_scripts','mariona_enqueue_assets' );
 
 function mariona_page_template( $template ) {
-	if ( is_front_page() && ( ! empty( $_COOKIE['visited'] ) || ! empty( $_GET['develop'] ) ) ) {
-		$template = get_stylesheet_directory() . '/templates/template-full-width.php';
+	if ( is_front_page() ) {
+		if ( ! empty( $_COOKIE['visited'] ) && empty( $_GET['develop'] ) ) {
+			$template = get_stylesheet_directory() . '/templates/template-full-width.php';
+		}
 	}
 	return $template;
 }
