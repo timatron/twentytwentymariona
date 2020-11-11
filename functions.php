@@ -20,3 +20,10 @@ function mariona_page_template( $template ) {
 	return $template;
 }
 add_filter( 'page_template', 'mariona_page_template' );
+
+function mariona_theme_support() {
+	// Add custom image size used in Cover Template.
+	add_image_size( 'mariona-fullscreen', 2600, 9999 );
+
+}
+add_action( 'after_setup_theme', 'mariona_theme_support' );
