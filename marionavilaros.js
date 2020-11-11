@@ -40,6 +40,7 @@ function removeLightboxOnMobile(width) {
   if (width.matches) { 
     // $('.wp-block-image a').prop("onclick", null).off("click");
     console.log( jQuery('.wp-block-image a')[0] );
+    console.log( jQuery._data( jQuery('.wp-block-image a')[0], "events" ) );
 
     // document.body.style.backgroundColor = "yellow";
   } else {
