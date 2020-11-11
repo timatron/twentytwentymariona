@@ -6722,5 +6722,9 @@ ul.primary-menu {
 	.header-navigation-wrapper-two { 
 		display: none; 
 	}
+
+	.sl-wrapper, .sl-overlay {
+		display: none !important;
+	}
 }
 

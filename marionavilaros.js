@@ -36,12 +36,12 @@ function doIntro() {
   }
 };
 
-// jQuery( ".wp-block-image a" ).load(function($) {
-jQuery( window ).load(function() {
-  console.log('ready');
-  var width = window.matchMedia("(max-width: 500px)");
-  if (width.matches) { 
-    console.log('set');
-    jQuery('.wp-block-image a').off('click');
-  }
-});
+// // jQuery( ".wp-block-image a" ).load(function($) {
+// jQuery( window ).load(function() {
+//   console.log('ready');
+//   var width = window.matchMedia("(max-width: 500px)");
+//   if (width.matches) { 
+//     console.log('set');
+//     jQuery('.wp-block-image a').off('click');
+//   }
+// });
