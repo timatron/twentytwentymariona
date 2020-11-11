@@ -1,5 +1,5 @@
 function doIntro() {
-  if ( document.body.classList.contains('template-cover') ) {
+  if ( document.body.classList.contains('first-visit') ) {
     if ( document.cookie.indexOf('visited=true') == -1 || 0 < window.location.href.indexOf('?develop=') ) {
       set cookie
       var thirtydays = 1000*60*60*24*30;
