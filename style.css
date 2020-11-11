@@ -6698,6 +6698,10 @@ ul.primary-menu {
 	opacity: 0.9;
 }
 
+.wp-block-columns {
+	margin-top: 0 !important;
+}
+
 /* MOBILE ONLY */
 @media (max-width: 500px) {
 
