@@ -22,7 +22,7 @@ function mariona_page_template( $template ) {
 add_filter( 'page_template', 'mariona_page_template' );
 
 function mariona_body_classes( $template ) {
-	if ( is_front_page() && ! empty( $_COOKIE['visited'] ) && ! empty( $_GET['develop'] ) ) {
+	if ( is_front_page() && ( empty( $_COOKIE['visited'] ) || empty( $_GET['develop'] ) ) ) {
 		$classes = array_merge( $classes, array( 'first-visit' ) );
 	}
 	return $classes;
