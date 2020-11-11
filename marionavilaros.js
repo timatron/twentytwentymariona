@@ -50,5 +50,5 @@ function removeLightboxOnMobile(width) {
 jQuery(document).ready(function($){
   var width = window.matchMedia("(max-width: 500px)");
   removeLightboxOnMobile(width);
-  x.addListener(removeLightboxOnMobile);
+  width.addListener(removeLightboxOnMobile);
 });
