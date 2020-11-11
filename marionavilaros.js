@@ -42,6 +42,6 @@ jQuery( window ).load(function() {
   var width = window.matchMedia("(max-width: 500px)");
   if (width.matches) { 
     console.log('set');
-    $( this ).off('click');
+    jQuery( this ).off('click');
   }
 });
