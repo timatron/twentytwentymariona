@@ -36,20 +36,9 @@ function doIntro() {
   }
 };
 
-function removeLightboxOnMobile(width) {
-  if (width.matches) { 
-    // $('.wp-block-image a').prop("onclick", null).off("click");
-    console.log( jQuery('.wp-block-image a')[0] );
-    console.log( jQuery._data( jQuery('.wp-block-image a')[0], "events" ) );
-
-    // document.body.style.backgroundColor = "yellow";
-  } else {
-    // document.body.style.backgroundColor = "pink";
-  }
-}
-
-jQuery(document).ready(function($){
+jQuery( ".wp-block-image a" ).load(function($) {
   var width = window.matchMedia("(max-width: 500px)");
-  removeLightboxOnMobile(width);
-  width.addListener(removeLightboxOnMobile);
+  if (width.matches) { 
+    $( this ).off('click');
+  }
 });
