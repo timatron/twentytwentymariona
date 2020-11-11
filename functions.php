@@ -14,12 +14,20 @@ function mariona_enqueue_assets() {
 add_action( 'wp_enqueue_scripts','mariona_enqueue_assets' );
 
 function mariona_page_template( $template ) {
-	if ( is_page() && ! empty( $_COOKIE['visited'] ) && ! empty( $_GET['develop'] ) ) {
+	if ( is_front_page() && ! empty( $_COOKIE['visited'] ) && ! empty( $_GET['develop'] ) ) {
 		$template = get_stylesheet_directory() . '/templates/template-full-width.php';
 	}
 	return $template;
 }
 add_filter( 'page_template', 'mariona_page_template' );
+
+function mariona_body_classes( $template ) {
+	if ( is_front_page() && ! empty( $_COOKIE['visited'] ) && ! empty( $_GET['develop'] ) ) {
+		$classes = array_merge( $classes, array( 'first-visit' ) );
+	}
+	return $classes;
+}
+add_filter( 'body_class', 'mariona_body_classes' );
 
 function mariona_theme_support() {
 	// Add custom image size used in Cover Template.
