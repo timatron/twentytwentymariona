@@ -42,6 +42,6 @@ jQuery( window ).load(function() {
   var width = window.matchMedia("(max-width: 500px)");
   if (width.matches) { 
     console.log('set');
-    jQuery( this ).off('click');
+    jQuery('.wp-block-image a').off('click');
   }
 });
