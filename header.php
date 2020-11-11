@@ -21,6 +21,9 @@
 		<link rel="profile" href="https://gmpg.org/xfn/11">
 
 		<?php wp_head(); ?>
+		<style>
+			<?php echo basename( get_page_template() ); ?>
+		</style>
 
 	</head>
 
