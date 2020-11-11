@@ -26,7 +26,6 @@
 		?>
 		<script type="text/javascript">
 			jQuery(document).ready( function($) {
-			 	console.log('set');
 			 	var img = $('<img>');
 			 	img.onload = doIntro();
 				img.attr('src', "<?php echo esc_url( $image_url ); ?>");

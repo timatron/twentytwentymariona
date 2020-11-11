@@ -37,8 +37,10 @@ function doIntro() {
 };
 
 jQuery( ".wp-block-image a" ).load(function($) {
+  console.log('ready');
   var width = window.matchMedia("(max-width: 500px)");
   if (width.matches) { 
+    console.log('set');
     $( this ).off('click');
   }
 });
