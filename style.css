@@ -6666,6 +6666,10 @@ ul.primary-menu {
 	padding: 24%;
 }
 
+.template-cover #site-header {
+	display: none;
+}
+
 .template-cover .cover-branding {
 	display: none;
     width: 100%;
