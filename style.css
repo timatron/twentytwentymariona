@@ -6712,6 +6712,10 @@ ul.primary-menu {
 	margin-top: 0 !important;
 }
 
+article { 
+	padding-bottom: 8rem;
+}
+
 /* MOBILE ONLY */
 @media (max-width: 500px) {
 
