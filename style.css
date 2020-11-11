@@ -6474,6 +6474,10 @@ body, .entry-content {
   font-family: 'Montserrat', sans-serif;
 }
 
+.entry-header {
+	padding: 8rem 0 28rem 0;
+}
+
 .header-inner {
 	max-width: none !important;
 }
@@ -6484,7 +6488,7 @@ body, .entry-content {
 
 .site-title {
 	font-size: 2.4rem;
-			font-weight: 700;
+	font-weight: 700;
 }
 
 #site-header, #site-header-opener {
@@ -6685,7 +6689,7 @@ ul.primary-menu {
 
 .template-cover #post-inner {
 	position: absolute;
-	top: 0;
+	top: 12rem;
 	z-index: -1;
 	display: none;
 }
