@@ -6743,10 +6743,6 @@ article {
 		padding: 6%;
 	}
 
-	.header-navigation-wrapper-two { 
-		display: none; 
-	}
-
 	.sl-wrapper, .sl-overlay {
 		display: none !important;
 	}
