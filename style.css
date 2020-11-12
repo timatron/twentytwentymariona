@@ -6744,11 +6744,11 @@ article {
 	    margin-top: 0 !important;
 	    margin-bottom: 0 !important;
 	}
-
+/*
 	.sl-wrapper, .sl-overlay {
 		display: none !important;
 	}
-}
+}*/
 
 /* MOBILE ONLY */
 @media (min-width: 600px) and (max-width: 780px) {
