@@ -11,7 +11,7 @@ function doIntro() {
     jQuery('.cover-branding').css('display', 'none');
     
     jQuery('.cover-branding').fadeIn(1000, function () {
-      jQuery('#coverall').fadeIn(1000, function () {
+      jQuery('#coverall').fadeIn(2000, function () {
         jQuery('#coverall').delay(1000).fadeOut(1000, function () {
           jQuery('#post-inner').fadeIn(1000, function () {
             jQuery('.cover-branding').fadeOut(1000);
