@@ -43,7 +43,7 @@
 						?>
 
 						<div class="header-dash">
-							—
+							&mdash;
 						</div>
 
 						<nav class="primary-menu-wrapper" aria-label="<?php echo esc_attr_x( 'Horizontal', 'menu', 'twentytwenty' ); ?>" role="navigation">
