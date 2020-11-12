@@ -10,12 +10,12 @@ function doIntro() {
     jQuery('#coverall').css('display', 'none');
     jQuery('.cover-branding').css('display', 'none');
     
-    jQuery('.cover-branding').fadeIn(1000, function () {
-      jQuery('#coverall').fadeIn(2000, function () {
-        jQuery('#coverall').delay(1000).fadeOut(1000, function () {
-          jQuery('#post-inner').fadeIn(1000, function () {
-            jQuery('.cover-branding').fadeOut(1000);
-            jQuery('#site-header').fadeIn(1000);
+    jQuery('.cover-branding').fadeIn(1000, 'linear', function () {
+      jQuery('#coverall').fadeIn(2000, 'linear', function () {
+        jQuery('#coverall').delay(1000).fadeOut(1000, 'linear', function () {
+          jQuery('#post-inner').fadeIn(1000, 'linear', function () {
+            jQuery('.cover-branding').fadeOut(1000, 'linear');
+            jQuery('#site-header').fadeIn(1000, 'linear');
             jQuery('body').removeClass('stop-scrolling');
           });
         });
