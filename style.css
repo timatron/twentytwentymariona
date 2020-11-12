@@ -6753,9 +6753,16 @@ article {
 	}
 }
 
-@media (max-width: 781px) and (min-width: 300px) {
+/* MOBILE ONLY */
+@media (min-width: 600px) and (max-width: 780px) {
+	.home .wp-block-image {
+		padding: 12%;
+	}
+}
+
+@media (min-width: 300px) and (max-width: 599px) {
 	.wp-block-column {
-	    flex-basis: calc(50% - 1em) !important;
+	    flex-basis: calc(50%) !important;
 	    flex-grow: 0;
 	}
 }
