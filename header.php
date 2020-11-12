@@ -21,13 +21,6 @@
 		<link rel="profile" href="https://gmpg.org/xfn/11">
 
 		<?php wp_head(); ?>
-		<?php if ( is_front_page() && ! empty( $_COOKIE['visited'] ) && empty( $_GET['develop'] ) ) : ?>
-		<style>
-			#site-header {
-				display: block !important;
-			}
-		</style>
-		<?php endif; ?>
 	</head>
 
 	<body <?php body_class(); ?>>
