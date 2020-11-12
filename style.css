@@ -6735,12 +6735,12 @@ article {
 	}
 
 	.section-inner, .entry-content {
-		width: calc( 100% - 6em );
+		width: calc( 100% - 3.4em );
 		margin: 0 auto;
 	}
 
 	.home .wp-block-image {
-		padding: 12%;
+		padding: 6%;
 	}
 
 	.header-navigation-wrapper-two { 
