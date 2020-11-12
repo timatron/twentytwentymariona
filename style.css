@@ -6580,6 +6580,10 @@ ul.primary-menu {
   color: #000000 !important;
 }
 
+#menu-item-128 a {
+	letter-spacing: 0 !important;
+}
+
 .primary-menu li.current-menu-item > a,
 .primary-menu li.current-menu-item > .link-icon-wrapper > a {
 	font-weight: 500;
