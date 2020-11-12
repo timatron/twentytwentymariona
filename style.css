@@ -6743,6 +6743,11 @@ article {
 		padding: 6%;
 	}
 
+	.home .wp-block-column {
+	    margin-top: 0 !important;
+	    margin-bottom: 0 !important;
+	}
+
 	.sl-wrapper, .sl-overlay {
 		display: none !important;
 	}
