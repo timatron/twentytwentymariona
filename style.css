@@ -6473,6 +6473,7 @@ a.to-the-top > * {
 body, .entry-content {
   font-family: 'Montserrat', sans-serif;
   font-weight: 300;
+  font-size: 1.3rem;
 }
 
 .entry-header {
