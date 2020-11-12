@@ -6761,7 +6761,7 @@ article {
 }
 
 @media (min-width: 300px) and (max-width: 599px) {
-	.wp-block-column {
+	.home .wp-block-column {
 	    flex-basis: calc(50%) !important;
 	    flex-grow: 0;
 	}
