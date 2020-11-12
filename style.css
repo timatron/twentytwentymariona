@@ -6728,7 +6728,7 @@ article {
 }
 
 /* MOBILE ONLY */
-@media (max-width: 500px) {
+@media (max-width: 499px) {
 
 	#site-header, #site-header-opener {
 		top: 2.5rem !important;
@@ -6754,13 +6754,13 @@ article {
 }
 
 /* MOBILE ONLY */
-@media (min-width: 600px) and (max-width: 780px) {
+@media (min-width: 500px) and (max-width: 780px) {
 	.home .wp-block-image {
 		padding: 12%;
 	}
 }
 
-@media (min-width: 300px) and (max-width: 599px) {
+@media (min-width: 300px) and (max-width: 499px) {
 	.wp-block-column {
 	    flex-basis: calc(50%) !important;
 	    flex-grow: 0;
