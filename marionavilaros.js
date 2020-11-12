@@ -13,7 +13,7 @@ function doIntro() {
     jQuery('.cover-branding').fadeIn(1000, 'linear', function () {
       jQuery('#coverall').fadeIn(2000, 'linear', function () {
         jQuery('#coverall').delay(1000).fadeOut(1000, 'linear', function () {
-          jQuery('#post-inner').fadeIn(1000, 'linear', function () {
+          jQuery('#post-inner').delay(500).fadeIn(1000, 'linear', function () {
             jQuery('.cover-branding').fadeOut(1000, 'linear');
             jQuery('#site-header').fadeIn(1000, 'linear');
             jQuery('body').removeClass('stop-scrolling');
