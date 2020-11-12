@@ -6753,3 +6753,9 @@ article {
 	}
 }
 
+@media (max-width: 781px) and (min-width: 300px) {
+	.wp-block-column {
+	    flex-basis: calc(50% - 1em) !important;
+	    flex-grow: 0;
+	}
+}
